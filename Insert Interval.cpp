@@ -1,5 +1,5 @@
  vector<vector<int>> insertInterval(vector<vector<int>> &intervals,
-                                      vector<int> &newInterval) {
+                                      vector<int>&newInterval) {
         // code here
         vector<vector<int>> result;
         for(auto &interval : intervals){
@@ -15,4 +15,5 @@
         }
         result.push_back(newInterval);
         return result;
+  
     }
