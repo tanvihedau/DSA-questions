@@ -10,7 +10,7 @@ class Solution {
     void sort012(vector<int>& arr) {
         // code here
         int n = arr.size();
-     int c0 = 0, c1 = 0, c2 = 0;
+     int c0 = 0, c1 = 0, c2 =  0;
      
      for(int i = 0 ;i <n ;i++){
          if(arr[i] == 0) c0++;
